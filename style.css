@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 80%, 98%);
+}
+
+.subbutton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 200px; /* Assuming this is intentional; otherwise, adjust accordingly */
+    padding-left: 2px;
+    
+}
+.subbutton:active{
+     opacity: 0.7;
+     background-color:rgb(166, 166, 166);
+}
+.joinbutton {
+    background-color: white;
+    color: rgb(48, 136, 204);
+    height: 30px;
+    width: 50px;
+    border-color: rgb(48, 136, 204);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 5px;
+    cursor:pointer;
+    transition: background-color 1s,
+    color 1s;
+}
+.joinbutton:hover{
+    background-color:rgb(194, 200, 203);
+    color:white;
+    
+}
+.joinbutton:active{
+    opacity: 0.7;
+    background-color: #c92020;
+}
+.sweet {
+    color: rgb(233, 233, 247);
+    background-color: rgb(25, 153, 238);
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+        cursor: pointer;
+    margin-top: 110px;
+    
+}
+.sweet:hover{
+    box-shadow: 5px 10px 10px rgb(63, 61, 61);
+}
+
